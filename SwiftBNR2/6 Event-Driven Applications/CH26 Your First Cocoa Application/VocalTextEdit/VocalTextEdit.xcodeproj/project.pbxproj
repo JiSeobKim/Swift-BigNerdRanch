@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECA58BF41C907AC400CF2462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA58BF31C907AC400CF2462 /* AppDelegate.swift */; };
+		ECA58BF61C907AC400CF2462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA58BF51C907AC400CF2462 /* ViewController.swift */; };
+		ECA58BF81C907AC400CF2462 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA58BF71C907AC400CF2462 /* Document.swift */; };
+		ECA58BFA1C907AC400CF2462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA58BF91C907AC400CF2462 /* Assets.xcassets */; };
+		ECA58BFD1C907AC400CF2462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA58BFB1C907AC400CF2462 /* Main.storyboard */; };
+		ECA58C081C907AC400CF2462 /* VocalTextEditTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA58C071C907AC400CF2462 /* VocalTextEditTests.swift */; };
+		ECA58C131C907AC400CF2462 /* VocalTextEditUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA58C121C907AC400CF2462 /* VocalTextEditUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECA58C041C907AC400CF2462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA58BE81C907AC400CF2462 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA58BEF1C907AC400CF2462;
+			remoteInfo = VocalTextEdit;
+		};
+		ECA58C0F1C907AC400CF2462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA58BE81C907AC400CF2462 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA58BEF1C907AC400CF2462;
+			remoteInfo = VocalTextEdit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECA58BF01C907AC400CF2462 /* VocalTextEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VocalTextEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA58BF31C907AC400CF2462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECA58BF51C907AC400CF2462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECA58BF71C907AC400CF2462 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		ECA58BF91C907AC400CF2462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECA58BFC1C907AC400CF2462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECA58BFE1C907AC400CF2462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA58C031C907AC400CF2462 /* VocalTextEditTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocalTextEditTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA58C071C907AC400CF2462 /* VocalTextEditTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocalTextEditTests.swift; sourceTree = "<group>"; };
+		ECA58C091C907AC400CF2462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA58C0E1C907AC400CF2462 /* VocalTextEditUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocalTextEditUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA58C121C907AC400CF2462 /* VocalTextEditUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocalTextEditUITests.swift; sourceTree = "<group>"; };
+		ECA58C141C907AC400CF2462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECA58BED1C907AC400CF2462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA58C001C907AC400CF2462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA58C0B1C907AC400CF2462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECA58BE71C907AC400CF2462 = {
+			isa = PBXGroup;
+			children = (
+				ECA58BF21C907AC400CF2462 /* VocalTextEdit */,
+				ECA58C061C907AC400CF2462 /* VocalTextEditTests */,
+				ECA58C111C907AC400CF2462 /* VocalTextEditUITests */,
+				ECA58BF11C907AC400CF2462 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECA58BF11C907AC400CF2462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECA58BF01C907AC400CF2462 /* VocalTextEdit.app */,
+				ECA58C031C907AC400CF2462 /* VocalTextEditTests.xctest */,
+				ECA58C0E1C907AC400CF2462 /* VocalTextEditUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECA58BF21C907AC400CF2462 /* VocalTextEdit */ = {
+			isa = PBXGroup;
+			children = (
+				ECA58BF31C907AC400CF2462 /* AppDelegate.swift */,
+				ECA58BF51C907AC400CF2462 /* ViewController.swift */,
+				ECA58BF71C907AC400CF2462 /* Document.swift */,
+				ECA58BF91C907AC400CF2462 /* Assets.xcassets */,
+				ECA58BFB1C907AC400CF2462 /* Main.storyboard */,
+				ECA58BFE1C907AC400CF2462 /* Info.plist */,
+			);
+			path = VocalTextEdit;
+			sourceTree = "<group>";
+		};
+		ECA58C061C907AC400CF2462 /* VocalTextEditTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECA58C071C907AC400CF2462 /* VocalTextEditTests.swift */,
+				ECA58C091C907AC400CF2462 /* Info.plist */,
+			);
+			path = VocalTextEditTests;
+			sourceTree = "<group>";
+		};
+		ECA58C111C907AC400CF2462 /* VocalTextEditUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECA58C121C907AC400CF2462 /* VocalTextEditUITests.swift */,
+				ECA58C141C907AC400CF2462 /* Info.plist */,
+			);
+			path = VocalTextEditUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECA58BEF1C907AC400CF2462 /* VocalTextEdit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA58C171C907AC400CF2462 /* Build configuration list for PBXNativeTarget "VocalTextEdit" */;
+			buildPhases = (
+				ECA58BEC1C907AC400CF2462 /* Sources */,
+				ECA58BED1C907AC400CF2462 /* Frameworks */,
+				ECA58BEE1C907AC400CF2462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VocalTextEdit;
+			productName = VocalTextEdit;
+			productReference = ECA58BF01C907AC400CF2462 /* VocalTextEdit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECA58C021C907AC400CF2462 /* VocalTextEditTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA58C1A1C907AC400CF2462 /* Build configuration list for PBXNativeTarget "VocalTextEditTests" */;
+			buildPhases = (
+				ECA58BFF1C907AC400CF2462 /* Sources */,
+				ECA58C001C907AC400CF2462 /* Frameworks */,
+				ECA58C011C907AC400CF2462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA58C051C907AC400CF2462 /* PBXTargetDependency */,
+			);
+			name = VocalTextEditTests;
+			productName = VocalTextEditTests;
+			productReference = ECA58C031C907AC400CF2462 /* VocalTextEditTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECA58C0D1C907AC400CF2462 /* VocalTextEditUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA58C1D1C907AC400CF2462 /* Build configuration list for PBXNativeTarget "VocalTextEditUITests" */;
+			buildPhases = (
+				ECA58C0A1C907AC400CF2462 /* Sources */,
+				ECA58C0B1C907AC400CF2462 /* Frameworks */,
+				ECA58C0C1C907AC400CF2462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA58C101C907AC400CF2462 /* PBXTargetDependency */,
+			);
+			name = VocalTextEditUITests;
+			productName = VocalTextEditUITests;
+			productReference = ECA58C0E1C907AC400CF2462 /* VocalTextEditUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECA58BE81C907AC400CF2462 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = BigNerdRanch;
+				TargetAttributes = {
+					ECA58BEF1C907AC400CF2462 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					ECA58C021C907AC400CF2462 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = ECA58BEF1C907AC400CF2462;
+					};
+					ECA58C0D1C907AC400CF2462 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = ECA58BEF1C907AC400CF2462;
+					};
+				};
+			};
+			buildConfigurationList = ECA58BEB1C907AC400CF2462 /* Build configuration list for PBXProject "VocalTextEdit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECA58BE71C907AC400CF2462;
+			productRefGroup = ECA58BF11C907AC400CF2462 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECA58BEF1C907AC400CF2462 /* VocalTextEdit */,
+				ECA58C021C907AC400CF2462 /* VocalTextEditTests */,
+				ECA58C0D1C907AC400CF2462 /* VocalTextEditUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECA58BEE1C907AC400CF2462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA58BFA1C907AC400CF2462 /* Assets.xcassets in Resources */,
+				ECA58BFD1C907AC400CF2462 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA58C011C907AC400CF2462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA58C0C1C907AC400CF2462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECA58BEC1C907AC400CF2462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA58BF61C907AC400CF2462 /* ViewController.swift in Sources */,
+				ECA58BF41C907AC400CF2462 /* AppDelegate.swift in Sources */,
+				ECA58BF81C907AC400CF2462 /* Document.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA58BFF1C907AC400CF2462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA58C081C907AC400CF2462 /* VocalTextEditTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA58C0A1C907AC400CF2462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA58C131C907AC400CF2462 /* VocalTextEditUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECA58C051C907AC400CF2462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECA58BEF1C907AC400CF2462 /* VocalTextEdit */;
+			targetProxy = ECA58C041C907AC400CF2462 /* PBXContainerItemProxy */;
+		};
+		ECA58C101C907AC400CF2462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECA58BEF1C907AC400CF2462 /* VocalTextEdit */;
+			targetProxy = ECA58C0F1C907AC400CF2462 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECA58BFB1C907AC400CF2462 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA58BFC1C907AC400CF2462 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECA58C151C907AC400CF2462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECA58C161C907AC400CF2462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ECA58C181C907AC400CF2462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VocalTextEdit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.VocalTextEdit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECA58C191C907AC400CF2462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VocalTextEdit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.VocalTextEdit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECA58C1B1C907AC400CF2462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VocalTextEditTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.VocalTextEditTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VocalTextEdit.app/Contents/MacOS/VocalTextEdit";
+			};
+			name = Debug;
+		};
+		ECA58C1C1C907AC400CF2462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VocalTextEditTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.VocalTextEditTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VocalTextEdit.app/Contents/MacOS/VocalTextEdit";
+			};
+			name = Release;
+		};
+		ECA58C1E1C907AC400CF2462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VocalTextEditUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.VocalTextEditUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VocalTextEdit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ECA58C1F1C907AC400CF2462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VocalTextEditUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.VocalTextEditUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VocalTextEdit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECA58BEB1C907AC400CF2462 /* Build configuration list for PBXProject "VocalTextEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA58C151C907AC400CF2462 /* Debug */,
+				ECA58C161C907AC400CF2462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA58C171C907AC400CF2462 /* Build configuration list for PBXNativeTarget "VocalTextEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA58C181C907AC400CF2462 /* Debug */,
+				ECA58C191C907AC400CF2462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECA58C1A1C907AC400CF2462 /* Build configuration list for PBXNativeTarget "VocalTextEditTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA58C1B1C907AC400CF2462 /* Debug */,
+				ECA58C1C1C907AC400CF2462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECA58C1D1C907AC400CF2462 /* Build configuration list for PBXNativeTarget "VocalTextEditUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA58C1E1C907AC400CF2462 /* Debug */,
+				ECA58C1F1C907AC400CF2462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECA58BE81C907AC400CF2462 /* Project object */;
+}
