@@ -10,8 +10,10 @@ import Foundation
 
 
 var myTown = Town()
+let myTownSize = myTown.townSize
 
-myTown.changePopulation(by: -5400)
+myTown.changePopulation(by: 1_000_000)
+
 //myTown.printDescription()
 //
 //let genericMonster = Monster()
@@ -30,10 +32,19 @@ let fredTheVampire = Vampire()
 
 fredTheVampire.town = myTown
 
+print(Zombie.spookyNoise)
+if Zombie.isTerryfying {
+    print("Run away!!!")
+}
 
-
-
-print(Square.numberOfSides())
-
-print(Vampire.makeSpookyNoise())
-print(GiantZombie.makeSpookyNoise())
+//print("Victim pool: \(fredTheVampire.victimPool)")
+//fredTheVampire.victimPool = 500
+//print("Victim pool: \(fredTheVampire.victimPool) population: \(fredTheVampire.town?.population ?? 0)")
+//
+//print(Zombie.spookyNoise)
+//
+//
+//print(Square.numberOfSides())
+//
+//print(Vampire.makeSpookyNoise())
+//print(GiantZombie.makeSpookyNoise())

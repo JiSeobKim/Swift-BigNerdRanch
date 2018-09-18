@@ -10,8 +10,20 @@ import Foundation
 
 
 class Monster {
+    static let isTerryfying = true
+    class var spookyNoise: String{
+        return "Grrr"
+    }
     var town: Town?
     var name = "Monster"
+    var victimPool: Int {
+        get {
+            return town?.population ?? 0
+        }
+        set {
+            town?.population = newValue
+        }
+    }
     
     func terrorizeTown() {
         if town != nil {
