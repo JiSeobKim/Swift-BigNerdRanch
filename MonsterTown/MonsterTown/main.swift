@@ -9,7 +9,7 @@
 import Foundation
 
 
-var myTown = Town()
+var myTown = Town(population: 10_000, stoplights: 6)
 let myTownSize = myTown.townSize
 
 myTown.changePopulation(by: 1_000_000)
@@ -22,20 +22,22 @@ myTown.changePopulation(by: 1_000_000)
 //genericMonster.terrorizeTown()
 
 
-//let fredTheZombie = Zombie()
-//fredTheZombie.town = myTown
-//fredTheZombie.terrorizeTown()
-//fredTheZombie.town?.printDescription()
+let fredTheZombie = Zombie(limp: false, fallingApart: false, town: myTown, monsterName: "Fred")
+fredTheZombie.terrorizeTown()
+fredTheZombie.town?.printDescription()
+
+var convenitentZombie = Zombie(limp: true, fallingApart: false)
 
 
-let fredTheVampire = Vampire()
 
-fredTheVampire.town = myTown
+//let fredTheVampire = Vampire(limp: false, fallingApart: false, town: myTown, monsterName: "Fred")
 
-print(Zombie.spookyNoise)
-if Zombie.isTerryfying {
-    print("Run away!!!")
-}
+
+
+//print(Zombie.spookyNoise)
+//if Zombie.isTerryfying {
+//    print("Run away!!!")
+//}
 
 //print("Victim pool: \(fredTheVampire.victimPool)")
 //fredTheVampire.victimPool = 500

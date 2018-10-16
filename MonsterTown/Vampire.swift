@@ -18,8 +18,8 @@ class Vampire: Monster {
         
         self.town?.changePopulation(by: -1)
         
-        guard self.town != nil else { return }
-        vampireArray.append(Vampire())
+//        guard self.town != nil else { return }
+//        vampireArray.append(Vampire())
     }
     
     func vampireCount() {
