@@ -9,10 +9,11 @@
 import Foundation
 
 
-var myTown = Town(population: 10_000, stoplights: 6)
-let myTownSize = myTown.townSize
+var myTown = Town(population: 0, stoplights: 6)
+let myTownSize = myTown?.townSize
+print(myTownSize)
 
-myTown.changePopulation(by: 1_000_000)
+myTown?.changePopulation(by: 1_000_000)
 
 //myTown.printDescription()
 //
@@ -22,13 +23,21 @@ myTown.changePopulation(by: 1_000_000)
 //genericMonster.terrorizeTown()
 
 
-let fredTheZombie = Zombie(limp: false, fallingApart: false, town: myTown, monsterName: "Fred")
-fredTheZombie.terrorizeTown()
-fredTheZombie.town?.printDescription()
+var fredTheZombie: Zombie? = Zombie(limp: false, fallingApart: false, town: myTown, monsterName: "Fred")
+fredTheZombie?.terrorizeTown()
+fredTheZombie?.town?.printDescription()
 
 var convenitentZombie = Zombie(limp: true, fallingApart: false)
 
 
+
+print(Zombie.spookyNoise)
+
+if Zombie.isTerryfying {
+    print("Run away!")
+}
+
+fredTheZombie = nil
 
 //let fredTheVampire = Vampire(limp: false, fallingApart: false, town: myTown, monsterName: "Fred")
 
